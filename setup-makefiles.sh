@@ -18,8 +18,8 @@
 
 set -e
 
-DEVICE=lettuce
-VENDOR=yu
+DEVICE=A37f
+VENDOR=oppo
 
 INITIAL_COPYRIGHT_YEAR=2015
 
