@@ -17,7 +17,7 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME        "YU5010"
+#define BTM_DEF_LOCAL_NAME        "OPPO A37f"
 
 #define BLE_VND_INCLUDED          TRUE
 #define BLUETOOTH_QTI_SW          TRUE

@@ -106,14 +106,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     calmodule.cfg \
     libcalmodule_common \
-    sensors.lettuce \
-    sensors.msm8916
 
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0-impl
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sensors/_hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/_hals.conf
+    android.hardware.sensors@1.0-impl \
+    android.hardware.sensors@1.0-service
 
 # Thermals
 PRODUCT_COPY_FILES += \
@@ -137,4 +133,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 
 # Call the proprietary setup
-$(call inherit-product, vendor/yu/lettuce/lettuce-vendor.mk)
+$(call inherit-product, vendor/oppo/A37f/A37f-vendor.mk)
