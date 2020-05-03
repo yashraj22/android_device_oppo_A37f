@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/yu/lettuce/full_A37f.mk)
+$(call inherit-product, device/oppo/A37f/full_A37f.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
@@ -21,15 +21,15 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-PRODUCT_NAME := lineage_lettuce
-BOARD_VENDOR := yu
-PRODUCT_DEVICE := lettuce
+PRODUCT_NAME := lineage_A37f
+BOARD_VENDOR := oppo
+PRODUCT_DEVICE := A37f
 
-PRODUCT_GMS_CLIENTID_BASE := android-micromax
+PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="YUPHORIA-user 5.1.1 LMY49J YOG4PAS8A8 release-keys" \
-    PRODUCT_NAME=YUPHORIA \
-    TARGET_DEVICE=YUPHORIA
+    PRIVATE_BUILD_DESC="A37f-user 5.1.1 LMY49J YOG4PAS8A8 release-keys" \
+    PRODUCT_NAME=A37f \
+    TARGET_DEVICE=A37f
 
-BUILD_FINGERPRINT := YU/YUPHORIA/YUPHORIA:5.1.1/LMY49J/YOG4PAS8A8:user/release-keys
+BUILD_FINGERPRINT := OPPO/A37f/A37f:5.1.1/LMY49J/YOG4PAS8A8:user/release-keys
