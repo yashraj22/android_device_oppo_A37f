@@ -16,7 +16,7 @@
 #
 
 # Inherit from msm8916-common
-include device/cyanogen/msm8916-common/BoardConfigCommon.mk
+include device/oppo/msm8916-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oppo/A37f
 
@@ -54,7 +54,7 @@ TARGET_KERNEL_CONFIG := lineageos_A37f_defconfig
 
 # Power
 TARGET_HAS_NO_POWER_STATS := true
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/double_tap_enable"
+#TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/double_tap_enable"
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
